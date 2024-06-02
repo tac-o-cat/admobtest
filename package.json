@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator='iPhone 15'",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-native": "0.74.1",
+    "react-native-google-mobile-ads": "^13.6.0",
+    "react-native-permissions": "^4.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
